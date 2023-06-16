@@ -1,0 +1,44 @@
+.party{
+    width: 100vw;
+    height: 10vh;
+    background-color: blanchedalmond;
+}
+
+ /* @media (max-width : 768px)  {
+    .party{
+        background-color: rgb(160, 160, 199);
+    }
+}
+@media (min-width : 640px)  {
+            .party{
+                background-color: blue; 
+} */
+
+.container{
+    width: 80vw;
+    margin: auto;
+    height: 20vh;
+    background-color: lightgray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    width: 30%;
+    height: 50%;
+    background-color: aqua;
+    border: 1px solid darkblue;
+}
+@media(max-width :640px){
+    .container{
+        flex-direction: column;
+        width: 90vw;
+        height: 80vh;
+    }
+    .item{
+        height: 30%;
+        width: 80%;
+    }
+
+}
